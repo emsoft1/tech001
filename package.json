@@ -1,0 +1,63 @@
+{
+    "name": "fullpage.js",
+    "version": "3.0.9",
+    "description": "Create beautiful fullscreen snap scrolling websites",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "jquery",
+        "javacript",
+        "scrolling",
+        "single_page",
+        "onepage",
+        "fullpage",
+        "fullpagejs",
+        "one_page",
+        "sliding",
+        "snap",
+        "scroll",
+        "swipe",
+        "mousewheel",
+        "sections",
+        "slides",
+        "slidehow"
+    ],
+    "files": [
+        "vendors",
+        "dist",
+        "package.json",
+        "README.md"
+    ],
+    "authors": [
+        "Alvaro Trigo https://github.com/alvarotrigo"
+    ],
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/alvarotrigo/fullPage.js/issues"
+    },
+    "homepage": "https://github.com/alvarotrigo/fullPage.js",
+    "namespace": "fullpage_api",
+    "devDependencies": {
+        "gulp": "^4.0.0",
+        "gulp-clean-css": "^4.0.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-uglify": "^3.0.0"
+    },
+    "directories": {
+        "example": "examples",
+        "test": "tests"
+    },
+    "author": "",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "dompurify": "^2.2.6",
+        "express": "^4.17.1",
+        "jsdom": "^16.5.0",
+        "lightweight-charts": "^3.3.0",
+        "nodemailer": "^6.5.0"
+    }
+}
